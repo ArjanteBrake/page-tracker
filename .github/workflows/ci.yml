@@ -1,0 +1,11 @@
+# .github/workflows/ci.yml
+
+name: Continious Integration
+
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
